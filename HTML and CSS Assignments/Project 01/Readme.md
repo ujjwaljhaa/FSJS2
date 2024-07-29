@@ -8,6 +8,8 @@
 
 **HTML and CSS**
 
+### [Deployed link](https://main--seo-master-ineuron.netlify.app/)
+
 ## Time Takes to Build this Project
 
 **60 _minutes_**
