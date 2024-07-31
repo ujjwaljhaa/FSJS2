@@ -6,4 +6,5 @@
 
 ### _Week 3_
 
-### [Project 01](./HTML%20and%20CSS%20Assignments/Project%2001/)
+- ### [Project 01](./HTML%20and%20CSS%20Assignments/Project%2001/)
+- ### [Project 02](./HTML%20and%20CSS%20Assignments/Project%2002/)
