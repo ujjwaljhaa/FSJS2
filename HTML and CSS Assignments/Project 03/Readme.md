@@ -10,4 +10,4 @@
 
 **HTML and CSS**
 
-### [Deployed link]()
+### [Deployed link](https://fashion-hub-ineuron.netlify.app/)
