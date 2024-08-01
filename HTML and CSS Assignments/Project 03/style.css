@@ -1,0 +1,198 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 2% 5%;
+  margin-inline: auto;
+}
+
+/* navbar  */
+
+section[aria-label="navbar"] {
+  height: 4%;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Orbitron";
+  margin-bottom: 10px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.list-item:first-child {
+  position: relative;
+  font-weight: 800;
+}
+.list-item:first-child::after {
+  display: block;
+  content: "";
+  width: 40px;
+  height: 3px;
+  background-color: currentColor;
+  margin-inline: auto;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.search-icon svg {
+  width: 18px;
+}
+
+button.nav-button {
+  padding: 5px 35px;
+  font-size: 1rem;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+saction[aria-label="banner"] {
+  height: 95vh;
+  position: relative;
+}
+/* hero-container  */
+
+.hero-container {
+  display: flex;
+}
+/* Square pattern  */
+img[alt="square-pattern"] {
+  width: 225px;
+  position: absolute;
+  top: 380px;
+  left: 190px;
+}
+/* person image  */
+img[alt="person-hero-iamge"] {
+  width: 300px;
+  position: absolute;
+  top: 200px;
+  z-index: 1;
+}
+
+/* Globe  */
+
+img[alt="globe-pattern"] {
+  width: 50px;
+  position: absolute;
+  left: 750px;
+}
+
+/* Star */
+
+/* img[alt="start-pattern"] { */
+.star img {
+  width: 50px;
+  position: absolute;
+  right: 160px;
+  top: 130px;
+}
+.star:nth-child(2) img {
+  width: 50px;
+  position: absolute;
+  top: 505px;
+  right: 800px;
+}
+
+/* hero-container-right */
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* hero-heading  */
+
+h1.hero-heading {
+  font-family: serif;
+  font-family: "Orbitron";
+  font-size: 3.5rem;
+  position: relative;
+  top: 100px;
+  left: 400px;
+  width: 70%;
+}
+
+/* hero-description */
+
+p.hero-description {
+  font-family: "Poppins";
+  font-size: 0.8rem;
+  width: 45%;
+  text-align: center;
+  position: relative;
+  left: 480px;
+  top: 140px;
+  color: #363636;
+  margin-bottom: 50px;
+}
+
+.hero-container-right div:nth-child(3) {
+  position: absolute;
+  top: 300px;
+  left: 600px;
+  display: flex;
+  gap: 10px;
+}
+.hero-container-right div:nth-child(4) {
+  position: absolute;
+  width: 200px;
+  top: 380px;
+  left: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.button-email {
+  font-family: "Orbitron";
+  padding: 1px 20px;
+  font-size: 1rem;
+  color: #363636;
+  background-color: transparent;
+  border-radius: 7px;
+  border: 2px solid #000;
+}
+
+.button-join {
+  font-family: "Orbitron";
+  padding: 1px 2px;
+  font-size: 1rem;
+  color: #c9c7c7;
+  background-color: transparent;
+  border-radius: 7px;
+  border: 2px solid #000;
+  background-color: #000;
+}
+
+h4.contact-heading {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #363636;
+}
