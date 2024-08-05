@@ -10,3 +10,4 @@
 - ### [Project 02](./HTML%20and%20CSS%20Assignments/Project%2002/)
 - ### [Project 03](./HTML%20and%20CSS%20Assignments/Project%2003/)
 - ### [Project 04](./HTML%20and%20CSS%20Assignments/Project%2004/)
+- ### [Project 05](./HTML%20and%20CSS%20Assignments/Project%2005/)
