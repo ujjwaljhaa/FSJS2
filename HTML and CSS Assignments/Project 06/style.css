@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Resets  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2b2923;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 5% 10%;
+}
+
+/* navbar  */
+
+.navbar {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  color: #a9a7a0;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.btn-nav {
+  background-color: transparent;
+  padding: 15px 30px;
+  color: #a09036;
+  font-size: 1.2rem;
+  border: 1px solid #a09036;
+  border-radius: 10px;
+}
+
+/* main area  */
+
+.main {
+  margin-top: 100px;
+  height: 90vh;
+}
+
+/* top textarea  */
+
+.textarea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-heading {
+  width: 59%;
+}
+
+.right-text {
+  width: 36%;
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  color: #fff;
+}
+
+.discription {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* banner image */
+
+.banner-img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+img[alt="banner"] {
+  width: 100%;
+}
