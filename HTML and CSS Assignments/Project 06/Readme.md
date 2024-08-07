@@ -4,7 +4,7 @@
 
 ## Output
 
-![Project 06](output.png)
+![Project 06](./Output.png)
 
 ## Tech Stack
 
